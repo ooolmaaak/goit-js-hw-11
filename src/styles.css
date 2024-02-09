@@ -1,0 +1,85 @@
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 элемента в строке */
+  grid-gap: 20px; /* пространство между элементами */
+}
+
+.photo-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.photo-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.info {
+  padding: 10px;
+}
+
+.info-item {
+  margin: 5px 0;
+}
+
+.load-more {
+  display: block;
+  margin: 30px auto 30px; /* Центрирование по горизонтали */
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.load-more:hover {
+  background-color: #0056b3;
+}
+
+/* Стили для формы */
+.search-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+/* Стили для инпута */
+.search-form input[type='text'] {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  margin-right: 10px;
+  outline: none;
+}
+
+.search-form input[type='text']:focus {
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.6);
+}
+
+/* Стили для кнопки */
+.search-form button[type='submit'],
+.load-more {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.search-form button[type='submit']:hover,
+.load-more:hover {
+  background-color: #0056b3;
+}
