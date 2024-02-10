@@ -25,7 +25,6 @@
 }
 
 .load-more {
-  display: block;
   margin: 30px auto 30px; /* Центрирование по горизонтали */
   padding: 10px 20px;
   font-size: 16px;
